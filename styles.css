@@ -18,19 +18,19 @@
             text-align: left;
         }
 
-        p.left {
+        .left {
             text-align: left;
         }
 
-        p.right{
+        .right{
             text-align: right;
         }
 
-        p.center{
+        .center{
             text-align: center;
         }
 
 
-        p.font{
+        .timesnew{
             font-family: "Times New Roman", Times, serif;
           }
