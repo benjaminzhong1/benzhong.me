@@ -45,4 +45,8 @@
             overflow: hidden;
         }
 
+        .content{
+            z-index: 10;
+        }
+
 
