@@ -34,7 +34,7 @@
             justify-content: center;
             text-align: center;
             padding: 0 20px;
-            color: aliceblue;
+            color:black;
         }
 
         .img-container{
@@ -46,6 +46,15 @@
             overflow: hidden;
         }
 
+        .img-container img{
+            min-width: 100%;
+            min-height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+        }
         .content{
             z-index: 10;
         }
