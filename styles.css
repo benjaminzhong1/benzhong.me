@@ -49,7 +49,7 @@
         .img-container img{
             min-width: 100%;
             min-height: 100%;
-            object-fit: cover;
+            object-fit: fill;
             position: absolute;
             top: 50%;
             left: 50%;
