@@ -53,13 +53,13 @@ h1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%); 
+    transform: translate(-50%,-50%);
 }
 
 .content{
     z-index: 10;
-    color: white; 
-    font-family:inherit;
+    color: black;
+    transform: translate(0%, -150%);
 }
 
 .btn{
@@ -69,5 +69,17 @@ h1 {
 .column{
     float: left;
     width: 33.33%;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
 }
 
